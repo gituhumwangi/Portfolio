@@ -1,0 +1,70 @@
+ #landingpage {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0rem;
+    overflow: hidden;
+    position: relative;
+ }
+
+ .briefcaseIcon {
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0.5rem;
+    object-fit: cover;
+    padding: 0 0.1.5rem;
+ }
+
+ .Profile {
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 75vh;
+ }
+ 
+ .landingpageContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .Hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+ }
+
+ .introName { 
+    color:yellow;
+ }
+
+ .introParagraph {
+    font-size:medium;
+    font-weight: 200;
+    letter-spacing: 1px;
+ }
+
+ .btn {
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+ }
+
+ @media screen  and (max-width:480px) {
+    .Profile {
+        height: 2vw;
+        width: 2vw; 
+    }
+    .introParagraph {
+      font-size: 1rem;
+    }
+  
+ }
