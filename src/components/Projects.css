@@ -1,0 +1,15 @@
+#myprojects {
+    width: 100vw;
+    display: flex;
+    max-width: 75rem;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.projectTitle {
+    font-size: 3rem;
+    font-weight: 700;
+}

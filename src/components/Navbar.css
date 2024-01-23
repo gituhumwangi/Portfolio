@@ -1,4 +1,4 @@
-.Navbar {
+#Navbar {
     background: rgb(30, 30, 30);
     height: 5rem;
     width: 100vw;
@@ -46,5 +46,11 @@
     height: 2rem;
     width: 2rem;
     margin: 1%;
-    padding: 2%;
+    padding: 1%;
+}
+
+.active {
+    color: yellow;
+    border-bottom: 3px solid yellow;
+    padding-bottom: 0.5rem;
 }
