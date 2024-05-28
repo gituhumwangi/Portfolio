@@ -7,4 +7,6 @@
     display: flex;
     background: rgb(40, 40, 40);
     margin-left: 4px;
+    margin-top: 20px;
+    padding-top: 20px;
 }

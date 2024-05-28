@@ -46,6 +46,33 @@
 
 .btn {
     margin: 10px 80px 30px;
-    bac
 
 }
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust spacing between icons */
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: pointer; /* Indicate that the element is clickable */
+}
+
+.social-link:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.socialImage {
+    width: 40px; /* Adjust size of the icons */
+    height: 40px;
+}
+
+.social-link:focus {
+    outline: 2px solid #000; /* Add a focus outline for accessibility */
+}
+

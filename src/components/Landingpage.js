@@ -1,6 +1,7 @@
 import React from 'react'
 import './Landingpage.css'
 import {Link} from 'react-scroll'
+import Image2 from '/home/dennis/personal-projects/portfolio/src/My Photos/Image2.jpg'
 
 const Landingpage = () => {
   return (
@@ -24,7 +25,7 @@ const Landingpage = () => {
             </button>
             </Link>
         </div>
-        <img src='https://img.myloview.com/posters/computer-programmer-or-coder-concept-software-engineer-vector-round-icon-design-professional-uniform-symbol-on-white-background-labor-day-people-stock-illustration-character-occupations-sign-700-279615738.jpg' 
+        <img src={Image2} 
         alt='Profile' className='Profile'/>
     </section>
   )
